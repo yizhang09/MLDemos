@@ -1,6 +1,5 @@
 #__author__ = 'zhangyi'
-
-import hellomodule
+from HelloPython import hellomodule
 
 print 'hello world'
 print hellomodule.word
