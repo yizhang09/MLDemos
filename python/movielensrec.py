@@ -20,6 +20,7 @@ import recom
 prefs = loadMovielens()
 result = recom.getRecommendations(prefs,'87')[0:30]
 
-print result
+for item in result:
+    print item
 
 
