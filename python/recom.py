@@ -1,10 +1,10 @@
 #from recommendation import critics
 #from recommendation import critics
-import recommendation
+import criticsdata
 import pearson as p
 
 
-print p.sim_pearson(recommendation.critics,'Lisa Rose','Gene Seymour')
+print p.sim_pearson(criticsdata.critics,'Lisa Rose','Gene Seymour')
 
 
 
