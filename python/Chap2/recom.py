@@ -1,7 +1,6 @@
 #from recommendation import critics
 #from recommendation import critics
-import criticsdata
-import pearson as p
+from Chap2 import pearson as p
 
 
 #print p.sim_pearson(criticsdata.critics,'Lisa Rose','Gene Seymour')

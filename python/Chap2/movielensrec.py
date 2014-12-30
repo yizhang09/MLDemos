@@ -1,3 +1,5 @@
+from Chap2 import recom
+
 __author__ = 'zhangyi'
 
 def loadMovielens(path='data/movielens/'):
@@ -16,7 +18,6 @@ def loadMovielens(path='data/movielens/'):
     return prefs
 
 
-import recom
 prefs = loadMovielens()
 result = recom.getRecommendations(prefs,'87')[0:30]
 
