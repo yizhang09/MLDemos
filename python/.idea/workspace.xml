@@ -481,7 +481,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420014423385</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add searchengine in PCI chapter4">
+      <created>1420014431922</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1420014431922</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
