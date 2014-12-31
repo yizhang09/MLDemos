@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a485a2e-199c-4f5c-8721-8d3fa9d5dc1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chap2/__init__.py" />
-      <change type="DELETED" beforePath="E:\Study\Codes\MLDemos\python\criticsdata.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\Study\Codes\MLDemos\python\data\movielens\u.data" afterPath="" />
-      <change type="DELETED" beforePath="E:\Study\Codes\MLDemos\python\data\movielens\u.item" afterPath="" />
-      <change type="DELETED" beforePath="E:\Study\Codes\MLDemos\python\movielensrec.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\Study\Codes\MLDemos\python\pearson.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\Study\Codes\MLDemos\python\pydelicious.py" afterPath="" />
-      <change type="DELETED" beforePath="E:\Study\Codes\MLDemos\python\recom.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\Study\Codes\MLDemos\python\.idea\pythoncodes.iml" afterPath="$PROJECT_DIR$/.idea/PCI-pythoncode.iml" />
-      <change type="MOVED" beforePath="E:\Study\Codes\MLDemos\python\criticsdata.py" afterPath="$PROJECT_DIR$/Chap2/criticsdata.py" />
-      <change type="MOVED" beforePath="E:\Study\Codes\MLDemos\python\data\movielens\u.data" afterPath="$PROJECT_DIR$/Chap2/data/movielens/u.data" />
-      <change type="MOVED" beforePath="E:\Study\Codes\MLDemos\python\data\movielens\u.item" afterPath="$PROJECT_DIR$/Chap2/data/movielens/u.item" />
-      <change type="MOVED" beforePath="E:\Study\Codes\MLDemos\python\movielensrec.py" afterPath="$PROJECT_DIR$/Chap2/movielensrec.py" />
-      <change type="MOVED" beforePath="E:\Study\Codes\MLDemos\python\pearson.py" afterPath="$PROJECT_DIR$/Chap2/pearson.py" />
-      <change type="MOVED" beforePath="E:\Study\Codes\MLDemos\python\pydelicious.py" afterPath="$PROJECT_DIR$/Chap2/pydelicious.py" />
-      <change type="MOVED" beforePath="E:\Study\Codes\MLDemos\python\recom.py" afterPath="$PROJECT_DIR$/Chap2/recom.py" />
     </list>
     <ignored path="pythoncodes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +39,8 @@
       <file leaf-file-name="movielensrec.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chap2/movielensrec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30333817" vertical-offset="0" max-vertical-offset="689">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.27576196" vertical-offset="0" max-vertical-offset="689">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,6 +93,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -128,9 +112,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PCI-pythoncode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chap2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +149,7 @@
       <recent name="E:\Study\Codes\MLDemos\python\HelloPython" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.movielensrec">
+  <component name="RunManager" selected="Python.movielensrec (1)">
     <configuration default="false" name="helloword" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,25 +182,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythoncodes" />
       <option name="SCRIPT_NAME" value="E:\Study\Codes\MLDemos\python\Chap2\recom.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythoncodes" />
-      <option name="SCRIPT_NAME" value="E:\Study\Codes\MLDemos\python\HelloPython\Hello.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -247,6 +225,25 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="movielensrec (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chap2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PCI-pythoncode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chap2/movielensrec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -375,17 +372,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.helloword" />
       <item index="1" class="java.lang.String" itemvalue="Python.recom" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Hello" />
-      <item index="3" class="java.lang.String" itemvalue="Python.VameiCrawler" />
-      <item index="4" class="java.lang.String" itemvalue="Python.movielensrec" />
+      <item index="2" class="java.lang.String" itemvalue="Python.VameiCrawler" />
+      <item index="3" class="java.lang.String" itemvalue="Python.movielensrec" />
+      <item index="4" class="java.lang.String" itemvalue="Python.movielensrec (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.movielensrec" />
-        <item index="1" class="java.lang.String" itemvalue="Python.recom" />
-        <item index="2" class="java.lang.String" itemvalue="Python.VameiCrawler" />
-        <item index="3" class="java.lang.String" itemvalue="Python.helloword" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Hello" />
+        <item index="0" class="java.lang.String" itemvalue="Python.movielensrec (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.movielensrec" />
+        <item index="2" class="java.lang.String" itemvalue="Python.recom" />
+        <item index="3" class="java.lang.String" itemvalue="Python.VameiCrawler" />
+        <item index="4" class="java.lang.String" itemvalue="Python.helloword" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +427,13 @@
       <option name="project" value="LOCAL" />
       <updated>1419495595291</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="reorgnize directory">
+      <created>1419930589345</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1419930589345</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -496,7 +499,8 @@
     </option>
     <MESSAGE value="move file" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="reorgnize directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="reorgnize directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -505,6 +509,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Chap2/recom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="439" max-vertical-offset="1064">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chap2/movielensrec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chap2/recom.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="458" max-vertical-offset="1083">
@@ -677,8 +697,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chap2/movielensrec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30333817" vertical-offset="0" max-vertical-offset="689">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.27576196" vertical-offset="0" max-vertical-offset="689">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
