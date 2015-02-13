@@ -1,5 +1,6 @@
 # coding:utf-8
 
+
 def readfile(filename):
 	lines = [line for line in file(filename)]
 
@@ -15,9 +16,13 @@ def readfile(filename):
 		print(p[0])
 
 		data.append([float(x) for x in p[1:]])
+
 	return rownames,colnames,data
 
 rownames = readfile('blogdata.txt')
-print(rownames)
+#print(rownames)
+
+
+
 
 
