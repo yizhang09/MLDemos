@@ -1,27 +1,28 @@
 #coding:utf8
 from bs4 import BeautifulSoup
 import os, sys, urllib2,time,random
- 
+
+
 path = os.getcwd()                     
-new_path = os.path.join(path,u'loft')
+new_path = os.path.join(path,u'dbmeizi')
 if not os.path.isdir(new_path):
     os.mkdir(new_path)
  
  
-def page_loop(page=1):
-    url = 'http://me2-sex.lofter.com/tag/美女摄影?page=%s' % page
+def page_loop(page=0):
+    url = 'http://www.dbmeizi.com/?p=%s' % page
     print url
     content = urllib2.urlopen(url)
     soup = BeautifulSoup(content)
     my_girl = soup.find_all('img')
     for girl in my_girl:
-        link = girl.get('src')
+        link = girl.get('data-bigimg')
         flink = link
         print flink
         content2 = urllib2.urlopen(flink).read()
  
         #with open(u'loft'+'/'+time.strftime('%H-%M-%S')+random.choice('qwertyuiopasdfghjklzxcvbnm')+flink[-5:],'wb') as code:   
-        with open(u'loft'+'/'+flink[-11:],'wb') as code:
+        with open(u'dbmeizi'+'/'+flink[-11:],'wb') as code:
             code.write(content2)
  
     page = int(page) + 1
