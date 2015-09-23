@@ -38,6 +38,10 @@ def predict(model,x):
     probs = exp_scores / np.sum(exp_scores,axis=1,keepdims=True)
     return np.argmax(probs,axis=1)
 
+# This function learns parameters for the neural network and returns the model.
+# - nn_hdim: Number of nodes in the hidden layer
+# - num_passes: Number of passes through the training data for gradient descent
+# - print_loss: If True, print the loss every 1000 iterations
 def build_model(nn_hdim,num_passes = 20000,print_loss=False):
     # Initialize the parameters to random values. We need to learn these.
     np.random.seed(0)
@@ -46,8 +50,10 @@ def build_model(nn_hdim,num_passes = 20000,print_loss=False):
     W2 = np.random.randn(nn_hdim, nn_output_dim) / np.sqrt(nn_hdim)
     b2 = np.zeros((1, nn_output_dim))
 
+    # This is what we return at the end
     model = {}
 
+    # Gradient descent. For each batch...
     for i in xrange(0,num_passes):
         # Forward propagation
         z1 = X.dot(W1) + b1
@@ -56,6 +62,7 @@ def build_model(nn_hdim,num_passes = 20000,print_loss=False):
         exp_scores = np.exp(z2)
         probs = exp_scores / np.sum(exp_scores, axis=1, keepdims=True)
 
+        # Backpropagation
         delta3 = probs
         delta3[range(num_examples),y] -= 1
         dW2 = (a1.T).dot(delta3)
@@ -95,7 +102,7 @@ def plot_decision_boundary(pred_func):
    plt.scatter(X[:,0],X[:,1],c=y,cmap=plt.cm.Spectral)
    plt.show()
 
-model = build_model(3, print_loss=True)
+model = build_model(4, print_loss=True)
 
 # Plot the decision boundary
 plt.title("Decision Boundary for hidden layer size 3")
